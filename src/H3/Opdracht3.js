@@ -11,6 +11,6 @@ while(randomNumbers.length < 9) {
 }
 random = 0;
 for (var plaatje in plaatjes) {
-    plaatjes[plaatje].src = "../img/monke" + randomNumbers[random] + ".png";
+    plaatjes[plaatje].src = "img/monke" + randomNumbers[random] + ".png";
     random++
 }
