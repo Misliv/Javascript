@@ -13,4 +13,9 @@ function createPicsHolders () {
 
 function createEeveeImages() {
     pictureHolders = document.getElementsByClassName("eeveepicture");
+    for (var i = 0; i < pictureHolders.length; i++) {
+        eeveePlaatje = document.createElement("img");
+        eeveePlaatje.src = "imgSmallerEeveelutions/SmallerEeveelution" + (i + 1) + ".png";
+        pictureHolders[i].appendChild(eeveePlaatje);
+    }
 }
