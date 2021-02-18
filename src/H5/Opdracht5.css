@@ -3,15 +3,21 @@ body {
     text-align: center;
 }
 
-div.eeveepicture {
+div.picture-holder {
     box-sizing: border-box;
     width: 300px;
     height: 450px;
     float: left;
-    background-color: red;
     border: solid 1px black;
 }
 
+div.favoriet {
+    width: 300px;
+    height: 150px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 #pics {
     width: 900px;
     height: 1350px;
