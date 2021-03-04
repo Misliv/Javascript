@@ -295,11 +295,6 @@ h1 {
     }
 }
 
-
-/****** Media queries
-***************************/
-
-
 @media (max-width: 320px) {
     .deck {
         width: 85%;
@@ -310,10 +305,6 @@ h1 {
         width: 4.7rem;
     }
 }
-
-
-/* For Tablets and larger screens
-****************/
 
 @media (min-width: 768px) {
     .container {
