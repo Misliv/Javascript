@@ -44,3 +44,6 @@ body {
     background: #001c43;
 }
 
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
